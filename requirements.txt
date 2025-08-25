@@ -1,0 +1,30 @@
+# requirements.txt
+# Dependencias para proyecto de predicción y recomendación en Gran DT
+
+# Manipulación y análisis de datos
+pandas>=2.0.0
+numpy>=1.21.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+
+# Web Scraping
+selenium>=4.10.0
+beautifulsoup4>=4.12.0
+
+# API y backend
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# Google Cloud Platform (GCP)
+google-cloud-storage>=2.10.0
+google-cloud-aiplatform>=1.25.0  # Para Vertex AI
+
+# Optimización (Google OR-Tools para recomendador de alineaciones)
+ortools>=9.0.9045
+
+# Otros útiles
+python-dotenv>=1.0.0  # Para manejar variables de entorno
+requests>=2.31.0      # Para peticiones HTTP adicionales
+openpyxl>=3.1.0       # Para leer archivos Excel (.xlsx)
